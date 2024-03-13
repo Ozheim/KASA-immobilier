@@ -1,0 +1,31 @@
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    
+    
+  
+    
+    .footer-style {
+            
+    
+            img {
+                padding-top: 66px;
+                width: 122px; 
+                height: 39px;
+            }
+    
+            p {
+                font-family: sans-serif;
+                font-weight: 500;    
+                font-size: 24px;
+                margin: 0;
+                padding-top: 38px;
+                padding-bottom: 29px;
+                color: white;
+            }
+        }
+    }

@@ -1,0 +1,16 @@
+.logements {
+    width: 86%;
+    height: auto;
+    margin: 0 auto; 
+    background-color: #F6F6F6;
+    margin-top: 43px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; // ou 'center' selon l'alignement souhaité
+    align-items: flex-start; 
+   
+}

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
+.about {
+  padding: 0 100px;
+}
+
 .notFound{
   display: flex;
   justify-content: center;
@@ -31,4 +35,91 @@
     color: black;
         
 }
+}
+
+
+
+
+@media screen and (max-width: 768px) {}
+.notFound {
+  h1 {
+    font-size: 200px;
+    padding: 93px 88px 113px 88px;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 25px;
+   
+  }
+  a{
+    font-size: 21px;
+  }
+
+}
+
+@media screen and (max-width: 680px) {
+.notFound{
+  h2{
+    font-size: 21px;
+  }
+  a{
+    font-size: 17px;
+  }
+}
+
+}
+
+
+@media screen and (max-width: 585px) {
+  .notFound {
+    h1 {
+      font-size: 150px;
+      padding: 93px 88px 113px 88px;
+      margin: 0;
+    }
+
+    h2 {
+          font-size: 16px;
+    }
+    a{
+      font-size: 12px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 484px) {
+  .notFound {
+    h1 {
+      font-size: 125px;
+      padding: 93px 88px 113px 88px;
+      margin: 0;
+    }
+    h2{
+      padding: 0 57px 0 57px;
+      font-size: 16px;
+    }
+    a{
+      font-size: 12px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 435px) {
+ .notFound{
+  h1{
+    font-size: 90px;
+    padding: 93px 88px 113px 88px;
+    margin: 0;
+   
+  }
+  h2{
+     font-size: 13px;
+     padding: 0 57px 0 75px;
+  }
+  
+ }
+  
 }

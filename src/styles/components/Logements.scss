@@ -1,7 +1,7 @@
 .logements {
-    width: 86%;
+    width: 100%;
     height: auto;
-    margin: 0 auto; 
+
     background-color: #F6F6F6;
     margin-top: 43px;
     border-radius: 20px;
@@ -10,7 +10,19 @@
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; // ou 'center' selon l'alignement souhaité
+    justify-content: space-around; 
     align-items: flex-start; 
+  
+}
+
+@media screen and (max-width : 768px) {
+   .logements{
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+
+   }
+
    
+
 }

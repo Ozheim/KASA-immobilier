@@ -7,7 +7,12 @@ const Logements = () => {
   return (
     <div className="logements">
       {logementsData.map((logement) => (
-        <Card key={logement.id} title={logement.title} cover={logement.cover} />
+        <Card
+          key={logement.id}
+          title={logement.title}
+          cover={logement.cover}
+          id={logement.id}
+        />
       ))}
     </div>
   );

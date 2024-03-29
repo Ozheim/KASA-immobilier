@@ -4,9 +4,9 @@ $font-size: 48px;
 $border-radius: 25px;
 
 .banner {
-    margin: auto;
+   
     position: relative;
-    width: 86%;
+    width: 100%;
     height: $banner-height;
     background-position: center;
     display: flex;
@@ -14,6 +14,8 @@ $border-radius: 25px;
     align-items: center;
     border-radius: $border-radius;
     overflow: hidden;
+   
+    
     
 
     &::before {
@@ -28,6 +30,7 @@ $border-radius: 25px;
         background-size: cover;
         filter: brightness(60%); 
         z-index: 0;
+        
     }
 
     p {
@@ -38,3 +41,38 @@ $border-radius: 25px;
         z-index: 1; 
     }
 }
+
+@media screen and (max-width : 768px) {
+  
+    .banner {
+        width: 100%;
+        height: 111px;
+        border-radius: 10px 0px 0px 0px;
+        
+        box-sizing: border-box;
+       
+
+       
+
+        &::before {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            margin: 0;
+            padding: 20px;
+          
+           
+          
+            
+        }
+
+        p {
+            width: 70%;
+            font-size: 24px;
+            margin: 0 ;
+            justify-content: flex-end;
+            
+        }
+    }
+}
+

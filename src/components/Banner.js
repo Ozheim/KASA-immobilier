@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/components/Banner.scss";
+import "../styles/pages/Home.scss";
 
 const Banner = () => {
   return (

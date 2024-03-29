@@ -1,19 +1,40 @@
 .card {
-        position: relative;
-        padding: 56px 30px 30px 30px;
-        box-sizing: border-box; 
-     img {
-        border-radius: 10px ;
-        width: 340px;
-        height: 340px;
+    position: relative;
+    padding: 56px 30px 30px 30px;
+    
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+        width: 340px; 
+        height: 340px; 
     }
-        .card-title {
-            font-family: Montserrat;
-            font-size: 18px;
-            font-weight: 700;
-            position: absolute; 
-            bottom: 50px; 
-            left: 53px; 
-            color: #FFFFFF;
+
+    .card-title {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        position: absolute;
+        bottom: 50px;
+        left: 53px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 10px 0px 10px 0px ; 
+        img {
+            width: 100%;
+            max-width: 100%; 
+            height: auto; 
         }
+
+        .card-title {
+          
+            font-size: 16px; 
+            bottom: 30px;
+            left: 30px;
+        }
+    }
 }

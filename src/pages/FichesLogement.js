@@ -89,7 +89,7 @@ const FicheLogement = () => {
           <p>{logement.description}</p>
         </Accordion>
         <Accordion title="Équipement">
-          <ul>
+          <ul className="equipment">
             {logement.equipments.map((equipment, index) => (
               <li key={index}>{equipment}</li>
             ))}

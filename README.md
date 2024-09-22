@@ -1,5 +1,9 @@
 # Kasa-immobilier - Application de Location d'Appartements
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ozheim/KASA-immobilier/master/src/assets/LOGO.png" alt="Logo Kasa">
+</p>
+
 ## Description
 
 Le projet Kasa est une application de location d'appartements entre particuliers. Cette application permet de naviguer entre différentes annonces de logements et d'afficher leurs détails. Ce projet a été développé avec React, en utilisant un fichier JSON pour simuler les données d'annonces.
